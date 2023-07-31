@@ -1,0 +1,87 @@
+.sidebarParent {
+    width: 17.5%;
+    border-right: 2px solid #f1f1f1;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+    margin-top: 130.94px;
+    display: none;
+  }
+  .logo {
+    padding: 49px 0px;
+    border-bottom: 2px solid #f1f1f1;
+    width: 100%;
+  }
+  .logoImg {
+    width: 140.18px;
+    height: 30.94px;
+    margin: auto;
+  }
+  @media (max-width: 750px) {
+    .sidebarParent {
+      width: 100% !important;
+      position: fixed;
+      top: 0%;
+      left: 0%;
+      z-index: 5 !important;
+    }
+    .logoImg {
+      width: 140.18px;
+      height: 30.94px;
+      margin-left: 0;
+    }
+    .logo {
+      padding: 0 2rem 0 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fafafa;
+    }
+    .offcanvas {
+      width: 70%;
+      height: auto;
+      background: #fafafa;
+      height: 90vh;
+      padding: 15px;
+      transition: 0.5s;
+      position: relative;
+      right: 70%;
+      z-index: 5;
+    }
+    .block {
+      transition: 0.5s;
+      position: relative;
+      right: 0% !important;
+    }
+    .mkvisiable {
+      transition: 0.5s;
+      display: block !important;
+    }
+  }
+  
+  
+  @media (max-width: 400px) {
+    .offcanvas {
+      width: 100%;
+      right: 100%;
+    }
+  }
+  @media (max-width: 1350px) {
+    .sidebarParent {
+      width: 20%;
+    }
+  }
+  @media (max-width: 1250px) {
+    .sidebarParent {
+      width: 25%;
+    }
+  }
+  @media (max-width: 950px) {
+    .sidebarParent {
+      width: 30%;
+    }
+  }
+  
+  
